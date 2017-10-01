@@ -1,0 +1,462 @@
+/*
+  Parts of this code is inspired from the following:
+  [1] https://userstyles.org/styles/128544/night-owl-browsing-2-dark-global
+*/
+
+table, tr, th, td, dd, dt, dl, fieldset, form, blockquote, a, nav, section, pre, section, div,  li, ul, td, tr, th, font, div.class, div.class.class, div#class {
+	box-shadow:none!important;
+	text-shadow:none!important;
+  color : #565C64 !important;
+  /*background-color: transparent !important;*/
+  background-color: black !important;
+}
+
+body, tbody, nav {
+	/*background-color : #060707 !important;*/
+  background-color: black !important;
+	border: none !important;
+	background-image: none !important;
+}
+
+table, tr, th, td, dd, dt, dl, iframe, a, ol, footer, header, ul, section, span.class {
+	border: none !important;
+  background-color: inherit !important;
+}
+
+blockquote, pre, label, cite {
+  color : #565C64 !important;
+  padding-top: 2px !important;
+  border-width: 1px !important;
+  padding-bottom: 2px !important;
+  border-style: solid !important;
+	/*border-color: #060707 !important;*/
+	/*background-color : #0E1012 !important;*/
+	background-color : black !important;
+}
+
+h1, h2, h3, h4, h5, h6, li, p, b, strong, em, time {
+	border: none !important;
+  /*color : #565C64 !important;*/
+	/*color: #e0e0e0 !important;*/
+  color: #7d7d7d !important;
+	background: none !important;
+  text-shadow: none !important;
+}
+
+hr {
+	border: 1px solid #000 !important;
+	color: #000 !important;
+	background: none !important;
+}
+
+span, div, class, div.class {
+	border: none !important;
+	/*color : #565C64 !important;*/
+	color: #a0a0a0 !important;
+}
+
+a:link {
+	text-decoration : none !important;
+  /*color: #727983 !important;*/
+  color: #607088 !important;
+}
+
+a:visited {
+	text-decoration : none !important;
+  color: #727983 !important;
+}
+
+a:hover {
+	color : #757e89 !important;
+}
+
+a:clicked {
+	color : #757e89 !important;
+}
+
+::selection {
+	color:#8e96a0 !important;
+	/*background-color: #000000 !important;*/
+	background-color: rgba(0, 3, 99, 0.19) !important
+}
+
+::-moz-selection  {
+	color:#68707a !important;
+	background-color: #000000 !important;
+}
+
+input, textarea, select, button, label, search-field, search, #search, .goog-flat-menu-button {
+	background-image : none !important;
+	background-color : #000000 !important;
+	color : #727983 !important;
+	border-color: #181A1E !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+	margin: 2px !important;
+	padding: 2px !important;
+}
+
+img, a img {
+	opacity : 0.50  !important;
+	filter: alpha(opacity=50) !important; /* IE 8 */
+	border: none !important;
+}
+
+
+/* Reddit. Must disable custom styles in preferences > display. */
+.flairtoggle, .flair, .linkflairlabel {
+	background: #2f3238 !important;
+	color : #929daa !important;
+	border: none !important;
+	}
+
+div.content, .side, div.md, .grippy, div.contents {
+	/*background-color : #060707 !important;*/
+	background-color : black !important;
+	border: none !important;
+}
+
+.gold-bubble, .morelink {
+	background-color : #0E1012 !important;
+	border-color: #181A1E !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+}
+
+.havemail, .thumbnail.default, .goldvertisement, #header-img.default-header, .trending-subreddits-content, .beta-link, li.selected, .archived-infobar.with-icon:before {
+	opacity : 0.40  !important;
+	filter: alpha(opacity=40); /* IE 8 */
+}
+
+.arrow.down, .arrow.up, .thumbnail.default, .expando-button.video.collapsed, .expando-button.selftext.collapsed, .thumbnail.self {
+	opacity : 0.25  !important;
+	filter: alpha(opacity=25); /* IE 8 */
+ }
+
+.nub {
+	background: none !important;
+}
+
+.upload-button {
+	background-color: #060707 !important;
+	border-color: #181A1E !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+}
+
+.upload-btn-text {
+	color : #68707a !important;
+	}
+
+i.img, ._4m1w {
+	opacity : 0.40  !important;
+	filter: alpha(opacity=40); /* IE 8 */
+}
+
+.uiScrollableArea {
+	background-image : none !important;
+	background-color : #000000 !important;
+	border-color: #181A1E !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+}
+
+._1mf, ._5vsj ._1g5v+._4arz {
+	background-image : none !important;
+	background-color : #000000 !important;
+	color : #727983 !important;
+	border-color: #181A1E !important;
+	border-style: solid !important;
+	border-width: 1px !important;
+}
+
+/* Something Awful Forums */
+tr.section, #navigation a, .forumdisplay ul.navigation li a, ul.navigation li a, #nav_purchase, #nav_purchase a, .forum_25 #navigation.navigation, td.title div.lastseen  {
+	color : #565C64 !important;
+	background-color : #0E1012 !important;
+}
+
+.forum_26,.forum_154,.forum_267,.forum_268,.forum_1 {
+	background-image: none !important;
+	background-color : #060707 !important;
+}
+
+.thread td.title_sticky a.thread_title {
+	background-image: none !important;
+	font-weight: bold !important;
+}
+
+td.icon img, td.title div.lastseen {
+	opacity : 0.25  !important;
+	filter: alpha(opacity=25); /* IE 8 */
+	border: none !important;
+	background-color: #000000 !important;
+}
+
+div.SandboxRoot.env-bp-min {
+	opacity : 0.50  !important;
+	filter: alpha(opacity=50); /* IE 8 */
+	border: none !important;
+
+}
+
+#mw-page-base {
+	background-color : #060707 !important;
+	border: none !important;
+	background-image: none !important;
+}
+
+
+/*<github */
+.btn {
+  background-image: none !important;
+}
+.markdown-body {
+  background-color: black !important;
+  border: none !important;
+}
+
+
+/*!
+ * GitHub Dark v0.5.0
+ * Copyright (c) 2012 - 2017 GitHub, Inc.
+ * Licensed under MIT (https://github.com/primer/github-syntax-theme-generator/blob/master/LICENSE)
+ */
+
+.pl-c /* comment, punctuation.definition.comment, string.comment */ {
+  color: #959da5 !important;
+  /*color: #AEAEAE !important;*/
+  /*font-style: italic !important;*/
+}
+
+.pl-c1 /* constant, entity.name.constant, variable.other.constant, variable.language, support, meta.property-name, support.constant, support.variable, meta.module-reference, markup.quote, markup.raw, meta.diff.header */,
+.pl-s .pl-v /* string variable */ {
+  color: #c8e1ff !important;
+}
+
+.pl-e /* entity */,
+.pl-en /* entity.name */ {
+  color: #b392f0 !important;
+}
+
+.pl-smi /* variable.parameter.function, storage.modifier.package, storage.modifier.import, storage.type.java, variable.other */,
+.pl-s .pl-s1 /* string source */ {
+  color: #f6f8fa !important;
+}
+
+.pl-ent /* entity.name.tag */ {
+  color: #7bcc72 !important;
+}
+
+.pl-k /* keyword, storage, storage.type */ {
+  color: #ea4a5a !important;
+}
+
+.pl-s /* string */,
+.pl-pds /* punctuation.definition.string, source.regexp, string.regexp.character-class */,
+.pl-s .pl-pse .pl-s1 /* string punctuation.section.embedded source */,
+.pl-sr /* string.regexp */,
+.pl-sr .pl-cce /* string.regexp constant.character.escape */,
+.pl-sr .pl-sre /* string.regexp source.ruby.embedded */,
+.pl-sr .pl-sra /* string.regexp string.regexp.arbitrary-repitition */ {
+  color: #79b8ff !important;
+}
+
+.pl-v /* variable */,
+.pl-ml /* markup.list, sublimelinter.mark.warning */ {
+  color: #fb8532 !important;
+}
+
+.pl-bu /* invalid.broken, invalid.deprecated, invalid.unimplemented, message.error, brackethighlighter.unmatched, sublimelinter.mark.error */ {
+  color: #d73a49 !important;
+}
+
+.pl-ii /* invalid.illegal */ {
+  color: #fafbfc !important;
+  background-color: #d73a49 !important;
+}
+
+.pl-c2 /* carriage-return */ {
+  color: #fafbfc !important;
+  background-color: #d73a49 !important;
+}
+
+.pl-c2::before /* carriage-return */ {
+  content: "^M";
+}
+
+.pl-sr .pl-cce /* string.regexp constant.character.escape */ {
+  font-weight: bold !important;
+  color: #7bcc72 !important;
+}
+
+.pl-mh /* markup.heading */,
+.pl-mh .pl-en /* markup.heading entity.name */,
+.pl-ms /* meta.separator */ {
+  font-weight: bold !important;
+  color: #0366d6 !important;
+}
+
+.pl-mi /* markup.italic */ {
+  font-style: italic !important;
+  color: #f6f8fa !important;
+}
+
+.pl-mb /* markup.bold */ {
+  font-weight: bold !important;
+  color: #f6f8fa !important;
+}
+
+.pl-md /* markup.deleted, meta.diff.header.from-file, punctuation.definition.deleted */ {
+  color: #b31d28 !important;
+  background-color: #ffeef0 !important;
+}
+
+.pl-mi1 /* markup.inserted, meta.diff.header.to-file, punctuation.definition.inserted */ {
+  color: #176f2c !important;
+  background-color: #f0fff4 !important;
+}
+
+.pl-mc /* markup.changed, punctuation.definition.changed */ {
+  color: #b08800 !important;
+  background-color: #fffdef !important;
+}
+
+.pl-mi2 /* markup.ignored, markup.untracked */ {
+  color: #2f363d !important;
+  background-color: #959da5 !important;
+}
+
+.pl-mdr /* meta.diff.range */ {
+  font-weight: bold !important;
+  color: #b392f0 !important;
+}
+
+.pl-mo /* meta.output */ {
+  color: #0366d6 !important;
+}
+
+.pl-ba /* brackethighlighter.tag, brackethighlighter.curly, brackethighlighter.round, brackethighlighter.square, brackethighlighter.angle, brackethighlighter.quote */ {
+  color: #ffeef0 !important;
+}
+
+.pl-sg /* sublimelinter.gutter-mark */ {
+  color: #6a737d !important;
+}
+
+.pl-corl /* constant.other.reference.link, string.other.link */ {
+  text-decoration: underline !important;
+  color: #79b8ff !important;
+}
+
+
+
+/*github> */
+
+/*<medium */
+.u-backgroundWhite {
+  background: black !important;
+}
+/*medium> */
+
+
+::-webkit-scrollbar-track,
+ ::-webkit-scrollbar-corner {
+  background-color: black;
+}
+
+::-webkit-scrollbar {
+  cursor: default;
+  width: 2px;
+  height: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0e0e0e;
+}
+
+div > .vimiumHintMarker span {
+  color: black !important;
+}
+
+/*<stackoverflow */
+code {
+  background-color: #101010 !important;
+  /*border: 1px solid #585757 !important;*/
+}
+
+pre > code {
+  background-color: black !important;
+}
+
+kbd {
+  background-color: black !important;
+  box-shadow: none !important;
+  border-color: #828282 !important;
+  text-shadow: none !important;
+  color: gray !important;
+}
+
+/* Pretty printing styles. Used with prettify.js. */
+/* Vim sunburst theme by David Leibovic */
+
+pre .str, code .str { color: #65B042 !important; } /* string  - green */
+pre .kwd, code .kwd { color: #E28964 !important; } /* keyword - dark pink */
+pre .com, code .com { color: #AEAEAE !important; font-style: italic !important; } /* comment - gray */
+pre .typ, code .typ { color: #89bdff !important; } /* type - light blue */
+pre .lit, code .lit { color: #3387CC !important; } /* literal - blue */
+pre .pun, code .pun { color: #fff !important; } /* punctuation - white */
+pre .pln, code .pln { color: #fff !important; } /* plaintext - white */
+pre .tag, code .tag { color: #89bdff !important; } /* html/xml tag    - light blue */
+pre .atn, code .atn { color: #bdb76b !important; } /* html/xml attribute name  - khaki */
+pre .atv, code .atv { color: #65B042 !important; } /* html/xml attribute value - green */
+pre .dec, code .dec { color: #3387CC !important; } /* decimal - blue */
+
+pre.prettyprint, code.prettyprint {
+	background-color: #000 !important;
+	border-radius: 8px !important;
+}
+
+pre.prettyprint {
+	width: 95% !important;
+	margin: 1em auto !important;
+	padding: 1em !important;
+	white-space: pre-wrap !important;
+}
+
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { margin-top: 0 !important; margin-bottom: 0 !important; color: #AEAEAE !important; } /* IE indents via margin-left */
+li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8 { list-style-type: none !important; }
+/* Alternate shading for lines */
+li.L1,li.L3,li.L5,li.L7,li.L9 { }
+
+@media print {
+  pre .str, code .str { color: #060 !important; }
+  pre .kwd, code .kwd { color: #006 !important; font-weight: bold !important; }
+  pre .com, code .com { color: #600 !important; font-style: italic !important; }
+  pre .typ, code .typ { color: #404 !important; font-weight: bold !important; }
+  pre .lit, code .lit { color: #044 !important; }
+  pre .pun, code .pun { color: #440 !important; }
+  pre .pln, code .pln { color: #000 !important; }
+  pre .tag, code .tag { color: #006 !important; font-weight: bold !important; }
+  pre .atn, code .atn { color: #404 !important; }
+  pre .atv, code .atv { color: #060 !important; }
+}
+
+/*stackoverflow > */
+
+
+/*<google */
+content, c-wiz {
+  background-color: black !important;
+}
+html {
+  background-color: black !important;
+}
+/*google> */
+
+figure {
+  background-color: black !important;
+}

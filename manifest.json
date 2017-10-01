@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "js": ["blacks.js"],
+      "run_at": "document_start"
+   } ],
+   "web_accessible_resources": [ "*.css" ],
+   "description": "a global black theme for the web \noriginal css style from http://mybrowseraddon.com/dark-mode.html",
+   "homepage_url": "http://github.com/raoofha/blacks",
+   "icons": {
+      "128": "128.png"
+   },
+   "manifest_version": 2,
+   "name": "blacks",
+   "version": "0.0.0"
+}
