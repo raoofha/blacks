@@ -216,6 +216,13 @@ div.SandboxRoot.env-bp-min {
   border: none !important;
 }
 
+div.border-gray-light {
+    border-color: #313131 !important;
+}
+div.border-top {
+    border-top: 1px #313131 solid !important;
+}
+
 
 /*!
  * GitHub Dark v0.5.0
@@ -460,3 +467,9 @@ html {
 figure {
   background-color: black !important;
 }
+
+/*<medium>*/
+article, div.u-backgroundWhite, div.u-tintBgColor {
+  background-color: black !important;
+}
+/*</medium>*/

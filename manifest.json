@@ -5,7 +5,7 @@
       "run_at": "document_start"
    } ],
    "web_accessible_resources": [ "*.css" ],
-   "description": "a global black theme for the web \noriginal css style from http://mybrowseraddon.com/dark-mode.html",
+   "description": "a global black theme for the web",
    "homepage_url": "http://github.com/raoofha/blacks",
    "icons": {
       "128": "128.png"
