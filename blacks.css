@@ -26,9 +26,9 @@ table, tr, th, td, dd, dt, dl, iframe, a, ol, footer, header, ul, section, span.
 blockquote, pre, label, cite {
   color : #565C64 !important;
   padding-top: 2px !important;
-  border-width: 1px !important;
   padding-bottom: 2px !important;
-  border-style: solid !important;
+  /*border-width: 1px !important;*/
+  /*border-style: solid !important;*/
 	/*border-color: #060707 !important;*/
 	/*background-color : #0E1012 !important;*/
 	background-color : black !important;
@@ -383,10 +383,6 @@ div.border-top {
   background-color: #0e0e0e;
 }
 
-div > .vimiumHintMarker span {
-  color: black !important;
-}
-
 /*<stackoverflow */
 code {
   background-color: #101010 !important;
@@ -403,6 +399,10 @@ kbd {
   border-color: #828282 !important;
   text-shadow: none !important;
   color: gray !important;
+}
+
+div.answered-accepted {
+  background-color: #001808 !important;
 }
 
 /* Pretty printing styles. Used with prettify.js. */
@@ -456,11 +456,11 @@ li.L1,li.L3,li.L5,li.L7,li.L9 { }
 
 
 /*<google */
-content, c-wiz {
+html, content, c-wiz {
   background-color: black !important;
 }
-html {
-  background-color: black !important;
+div#search {
+  border: none !important;
 }
 /*google> */
 
@@ -473,3 +473,33 @@ article, div.u-backgroundWhite, div.u-tintBgColor {
   background-color: black !important;
 }
 /*</medium>*/
+
+/*<vimium>*/
+div > .vimiumHintMarker {
+  background: black !important;
+  border-style: solid !important;
+  border-width: 1px !important;
+}
+
+div > .vimiumHintMarker span {
+  /*color: black !important;*/
+  text-shadow: none;
+  color: white !important;
+}
+/*</vimium>*/
+
+
+/*<twitter>*/
+iframe {
+  opacity: 0.5;
+}
+/*.TwitterCardsGrid .TwitterCardsGrid-col--12 {*/
+  /*background: #545454 !important;*/
+  /*border-color: #686868 !important;*/
+/*}*/
+/*</twitter>*/
+
+embed {
+  opacity: 0.4;
+  filter: invert();
+}
