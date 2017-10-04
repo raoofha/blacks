@@ -464,7 +464,7 @@ div#search {
 }
 /*google> */
 
-figure {
+main, figure {
   background-color: black !important;
 }
 

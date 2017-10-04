@@ -1,8 +1,10 @@
 {
    "content_scripts": [ {
       "matches": [ "\u003Call_urls>" ],
+      "exclude_matches": ["*://localhost:*/*"],
       "js": ["blacks.js"],
-      "run_at": "document_start"
+      "run_at": "document_start",
+      "all_frames": true
    } ],
    "web_accessible_resources": [ "*.css" ],
    "description": "a global black theme for the web",
