@@ -222,6 +222,9 @@ div.border-gray-light {
 div.border-top {
     border-top: 1px #313131 solid !important;
 }
+.repository-lang-stats-graph {
+  opacity: 0.5 !important;
+}
 
 
 /*!
@@ -503,3 +506,20 @@ embed {
   opacity: 0.4;
   filter: invert();
 }
+
+
+/*<chromium browser>*/
+#page-header {
+  background-image: none !important;
+}
+#page-header h1::after{
+  background-color: #7b7a7a !important;
+}
+button {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+dialog#drawer::shadow , settings-animated-pages {
+  background-color: black !important;
+}
+/*</chromium browser>*/
