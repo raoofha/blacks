@@ -25,8 +25,8 @@ table, tr, th, td, dd, dt, dl, iframe, a, ol, footer, header, ul, section, span.
 
 blockquote, pre, label, cite {
   color : #565C64 !important;
-  padding-top: 2px !important;
-  padding-bottom: 2px !important;
+  /*padding-top: 2px !important;*/
+  /*padding-bottom: 2px !important;*/
   /*border-width: 1px !important;*/
   /*border-style: solid !important;*/
 	/*border-color: #060707 !important;*/
@@ -50,7 +50,8 @@ hr {
 }
 
 span, div, class, div.class {
-	border: none !important;
+  border-color: #212121 !important;
+	/*border: none !important;*/
 	/*color : #565C64 !important;*/
 	color: #a0a0a0 !important;
 }
@@ -92,8 +93,8 @@ input, textarea, select, button, label, search-field, search, #search, .goog-fla
 	border-color: #181A1E !important;
 	border-style: solid !important;
 	border-width: 1px !important;
-	margin: 2px !important;
-	padding: 2px !important;
+	/*margin: 2px !important;*/
+	/*padding: 2px !important;*/
 }
 
 img, a img {
@@ -222,10 +223,14 @@ div.border-gray-light {
 div.border-top {
     border-top: 1px #313131 solid !important;
 }
-.repository-lang-stats-graph {
+.color-block.language-color, .repository-lang-stats-graph {
   opacity: 0.5 !important;
 }
-
+.dropdown-caret {
+  border-right-color: transparent !important;
+  border-bottom-color: transparent !important;
+  border-left-color: transparent !important;
+}
 
 /*!
  * GitHub Dark v0.5.0
@@ -390,6 +395,7 @@ div.border-top {
 code {
   background-color: #101010 !important;
   /*border: 1px solid #585757 !important;*/
+  color: #686767 !important;
 }
 
 pre > code {
@@ -406,6 +412,15 @@ kbd {
 
 div.answered-accepted {
   background-color: #001808 !important;
+}
+
+#newsletter-ad {
+  background: none !important;
+}
+
+div.clc-jobs-multi>.middle>ul .job-wrap span.post-tag {
+  background-color: black !important;
+  border: 1px solid gray !important;
 }
 
 /* Pretty printing styles. Used with prettify.js. */
@@ -522,4 +537,35 @@ button {
 dialog#drawer::shadow , settings-animated-pages {
   background-color: black !important;
 }
+input {
+  box-shadow: none !important;
+}
 /*</chromium browser>*/
+
+/*<digikala>*/
+.products__item-wrapper {
+  background-color: black !important;
+}
+/*</digikala>*/
+
+
+/*<bootstrap theme>*/
+.nav-link.active, .btn.btn-primary {
+  border: 1px solid #007bff !important;
+}
+.btn.btn-secondary {
+  border: 1px solid #868e96 !important;
+}
+.btn.btn-success {
+  border: 1px solid #28a745 !important;
+}
+.navbar {
+  border-bottom: 1px solid #464545 !important;
+}
+.navbar.bg-dark, div.bg-dark, div.bg-light {
+  background-color: black !important;
+}
+.btn, .panel, div.border-white {
+  border: 1px solid #464545 !important;
+}
+/*</bootstrap theme>*/
