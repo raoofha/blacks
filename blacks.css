@@ -1,21 +1,23 @@
 /**:not(.slate_button):after*/
 /**:before , */
 /**:after*/
-*:not(.language-color) 
-{
-  background-color : black !important;
-  /*background-color : transparent !important;*/
-  /*background-color : initial !important;*/
-	color : #727983 !important;
+
+* {
 	box-shadow: none !important;
 	text-shadow: none !important;
 	text-decoration: none !important;
   border-color: #212121 !important;
 }
+*:not(.language-color) /*:not(span):not(yt-formatted-string)*/
+{
+  background-color : black !important;
+	color : #727983 !important;
+}
+
 
 body ,
 html {
-  /*background-image: none !important;*/
+  background-image: none !important;
   /*background-color : black !important;*/
 }
 
@@ -62,6 +64,8 @@ img, a img {
 	opacity : 0.50  !important;
 }
 
+.recaptcha-checkbox-borderAnimation,
+.recaptcha-checkbox-checkmark,
 input {
   border: 1px solid #313131 !important;
   background-image: none !important;
@@ -71,6 +75,7 @@ embed {
   opacity: 0.4;
   filter: invert();
 }
+
 
 /*span {*/
   /*background-color: rgba(0, 0, 0, 0) !important*/
@@ -250,7 +255,7 @@ li.border {
 /*</github> */
 
 /*<medium> */
-.u-backgroundWhite {
+div.u-backgroundTransparentWhiteDarkest, .u-backgroundWhite {
   background: black !important;
 }
 article, div.u-backgroundWhite, div.u-tintBgColor {
@@ -350,6 +355,21 @@ html, content, c-wiz {
 div#search {
   border: none !important;
 }
+#hdtb-tls:hover ,
+#hdtb-msb .hdtb-tl-sel {
+  background-image: none !important;
+  background-color: #141414 !important;
+}
+.gstl_0.sbdd_a {
+  border-style: solid !important;
+  border-width: 1px !important;
+}
+.sbsb_d .sbqs_c b , .sbsb_d .sbqs_c, .sbsb_d {
+  background: #2f2f2f !important;
+}
+.jfk-button-standard {
+  background-image: none !important;
+}
 /*</google> */
 
 main, figure {
@@ -392,12 +412,13 @@ button {
   box-shadow: none !important;
   text-shadow: none !important;
 }
-dialog#drawer::shadow , settings-animated-pages {
+dialog#drawer::shadow , settings-animated-pages, settings-subpage {
   background-color: black !important;
 }
 input {
   box-shadow: none !important;
 }
+
 /*</chromium browser>*/
 
 /*<digikala>*/
@@ -437,3 +458,510 @@ input {
   background-color: #001808 !important;
 }
 /*</imdb>*/
+
+/*<youtube>*/
+.ytp-gradient-bottom, .ytp-progress-bar-padding  {
+  background-color: transparent !important;
+}
+.ytd-thumbnail-overlay-resume-playback-renderer, .ytp-play-progress.ytp-swatch-background-color {
+  background-color: #2f0000 !important;
+}
+.ytp-load-progress {
+  background-color: rgb(26, 26, 26) !important;
+}
+/*</youtube>*/
+
+/*<syntax highlighter fadetogray theme*/
+/**
+ * SyntaxHighlighter
+ * http://alexgorbatchev.com/SyntaxHighlighter
+ *
+ * SyntaxHighlighter is donationware. If you are using it, please donate.
+ * http://alexgorbatchev.com/SyntaxHighlighter/donate.html
+ *
+ * @version
+ * 3.0.83 (July 02 2010)
+ * 
+ * @copyright
+ * Copyright (C) 2004-2010 Alex Gorbatchev.
+ *
+ * @license
+ * Dual licensed under the MIT and GPL licenses.
+ */
+div .syntaxhighlighter {
+  background-color: #121212 !important;
+  opacity: 0.5 !important;
+}
+div .syntaxhighlighter .line.alt1 {
+  background-color: #121212 !important;
+}
+div .syntaxhighlighter .line.alt2 {
+  background-color: #121212 !important;
+}
+div .syntaxhighlighter .line.highlighted.alt1, div .syntaxhighlighter .line.highlighted.alt2 {
+  background-color: #2c2c29 !important;
+}
+div .syntaxhighlighter .line.highlighted.number {
+  color: white !important;
+}
+div .syntaxhighlighter table caption {
+  color: white !important;
+}
+div .syntaxhighlighter .gutter {
+  color: #afafaf !important;
+}
+div .syntaxhighlighter .gutter .line {
+  border-right: 3px solid #3185b9 !important;
+}
+div .syntaxhighlighter .gutter .line.highlighted {
+  background-color: #3185b9 !important;
+  color: #121212 !important;
+}
+div .syntaxhighlighter.printing .line .content {
+  border: none !important;
+}
+div .syntaxhighlighter.collapsed {
+  overflow: visible !important;
+}
+div .syntaxhighlighter.collapsed .toolbar {
+  color: #3185b9 !important;
+  background: black !important;
+  border: 1px solid #3185b9 !important;
+}
+div .syntaxhighlighter.collapsed .toolbar a {
+  color: #3185b9 !important;
+}
+div .syntaxhighlighter.collapsed .toolbar a:hover {
+  color: #d01d33 !important;
+}
+div .syntaxhighlighter .toolbar {
+  color: white !important;
+  background: #3185b9 !important;
+  border: none !important;
+}
+div .syntaxhighlighter .toolbar a {
+  color: white !important;
+}
+div .syntaxhighlighter .toolbar a:hover {
+  color: #96daff !important;
+}
+div .syntaxhighlighter .plain, div .syntaxhighlighter .plain a {
+  color: white !important;
+}
+div .syntaxhighlighter .comments, div .syntaxhighlighter .comments a {
+  color: #696854 !important;
+}
+div .syntaxhighlighter .string, div .syntaxhighlighter .string a {
+  color: #e3e658 !important;
+}
+div .syntaxhighlighter .keyword {
+  color: #d01d33 !important;
+}
+div .syntaxhighlighter .preprocessor {
+  color: #435a5f !important;
+}
+div .syntaxhighlighter .variable {
+  color: #898989 !important;
+}
+div .syntaxhighlighter .value {
+  color: #009900 !important;
+}
+div .syntaxhighlighter .functions {
+  color: #aaaaaa !important;
+}
+div .syntaxhighlighter .constants {
+  color: #96daff !important;
+}
+div .syntaxhighlighter .script {
+  font-weight: bold !important;
+  color: #d01d33 !important;
+  background-color: none !important;
+}
+div .syntaxhighlighter .color1, div .syntaxhighlighter .color1 a {
+  color: #ffc074 !important;
+}
+div .syntaxhighlighter .color2, div .syntaxhighlighter .color2 a {
+  color: #4a8cdb !important;
+}
+div .syntaxhighlighter .color3, div .syntaxhighlighter .color3 a {
+  color: #96daff !important;
+}
+
+div .syntaxhighlighter .functions {
+  font-weight: bold !important;
+}
+/*syntax highlighter fadetogray theme>*/
+
+
+/*<prism*/
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2 !important;
+	background: none !important;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3) !important;
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace !important;
+	text-align: left !important;
+	white-space: pre !important;
+	word-spacing: normal !important;
+	word-break: normal !important;
+	word-wrap: normal !important;
+	line-height: 1.5 !important;
+
+	-moz-tab-size: 4 !important;
+	-o-tab-size: 4 !important;
+	tab-size: 4 !important;
+
+	-webkit-hyphens: none !important;
+	-moz-hyphens: none !important;
+	-ms-hyphens: none !important;
+	hyphens: none !important;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em !important;
+	/*margin: .5em 0 !important;*/
+	overflow: auto !important;
+	border-radius: 0.3em !important;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: black !important;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em !important;
+	border-radius: .3em !important;
+	white-space: normal !important;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: slategray !important;
+}
+
+.token.punctuation {
+	color: #f8f8f2 !important;
+}
+
+.namespace {
+	opacity: .7 !important;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672 !important;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff !important;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e !important;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2 !important;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function {
+	color: #e6db74 !important;
+}
+
+.token.keyword {
+	color: #66d9ef !important;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f !important;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold !important;
+}
+.token.italic {
+	font-style: italic !important;
+}
+
+.token.entity {
+	cursor: help !important;
+}
+/*prism>*/
+
+
+/*<highlight.js*/
+.hljs {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 0.5em !important;
+  background: #000 !important;
+  color: #f8f8f8 !important;
+  opacity: 0.5 !important;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #aeaeae !important;
+  font-style: italic !important
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-type {
+  color: #e28964 !important
+}
+
+.hljs-string {
+  color: #65b042 !important
+}
+
+.hljs-subst {
+  color: #daefa3 !important
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #e9c062 !important
+}
+
+.hljs-title,
+.hljs-section,
+.hljs-tag,
+.hljs-name {
+  color: #89bdff !important
+}
+
+.hljs-class .hljs-title,
+.hljs-doctag {
+  text-decoration: underline !important
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-number {
+  color: #3387cc !important
+}
+
+.hljs-params,
+.hljs-variable,
+.hljs-template-variable {
+  color: #3e87e3 !important
+}
+
+.hljs-attribute {
+  color: #cda869 !important
+}
+
+.hljs-meta {
+  color: #8996a8 !important
+}
+
+.hljs-formula {
+  background-color: #0e2231 !important;
+  color: #f8f8f8 !important;
+  font-style: italic !important
+}
+
+.hljs-addition {
+  background-color: #253b22 !important;
+  color: #f8f8f8 !important
+}
+
+.hljs-deletion {
+  background-color: #420e09 !important;
+  color: #f8f8f8 !important
+}
+
+.hljs-selector-class {
+  color: #9b703f !important
+}
+
+.hljs-selector-id {
+  color: #8b98ab !important
+}
+
+.hljs-emphasis {
+  font-style: italic !important
+}
+
+.hljs-strong {
+  font-weight: bold !important
+}
+/*highlight.js>*/
+
+
+/*<pygaments-css*/
+.highlight .hll { background-color: #222222 !important }
+.highlight  { background: #000000 !important; color: #cccccc  !important; opacity: 0.5 !important;}
+.highlight .c { color: #000080 !important } /* Comment */
+.highlight .err { color: #cccccc !important; border: 1px solid #FF0000 !important } /* Error */
+.highlight .esc { color: #cccccc !important } /* Escape */
+.highlight .g { color: #cccccc !important } /* Generic */
+.highlight .k { color: #cdcd00 !important } /* Keyword */
+.highlight .l { color: #cccccc !important } /* Literal */
+.highlight .n { color: #cccccc !important } /* Name */
+.highlight .o { color: #3399cc !important } /* Operator */
+.highlight .x { color: #cccccc !important } /* Other */
+.highlight .p { color: #cccccc !important } /* Punctuation */
+.highlight .ch { color: #000080 !important } /* Comment.Hashbang */
+.highlight .cm { color: #000080 !important } /* Comment.Multiline */
+.highlight .cp { color: #000080 !important } /* Comment.Preproc */
+.highlight .cpf { color: #000080 !important } /* Comment.PreprocFile */
+.highlight .c1 { color: #000080 !important } /* Comment.Single */
+.highlight .cs { color: #cd0000 !important; font-weight: bold !important } /* Comment.Special */
+.highlight .gd { color: #cd0000 !important } /* Generic.Deleted */
+.highlight .ge { color: #cccccc !important; font-style: italic !important } /* Generic.Emph */
+.highlight .gr { color: #FF0000 !important } /* Generic.Error */
+.highlight .gh { color: #000080 !important; font-weight: bold !important } /* Generic.Heading */
+.highlight .gi { color: #00cd00 !important } /* Generic.Inserted */
+.highlight .go { color: #888888 !important } /* Generic.Output */
+.highlight .gp { color: #000080 !important; font-weight: bold !important } /* Generic.Prompt */
+.highlight .gs { color: #cccccc !important; font-weight: bold !important } /* Generic.Strong */
+.highlight .gu { color: #800080 !important; font-weight: bold !important } /* Generic.Subheading */
+.highlight .gt { color: #0044DD !important } /* Generic.Traceback */
+.highlight .kc { color: #cdcd00 !important } /* Keyword.Constant */
+.highlight .kd { color: #00cd00 !important } /* Keyword.Declaration */
+.highlight .kn { color: #cd00cd !important } /* Keyword.Namespace */
+.highlight .kp { color: #cdcd00 !important } /* Keyword.Pseudo */
+.highlight .kr { color: #cdcd00 !important } /* Keyword.Reserved */
+.highlight .kt { color: #00cd00 !important } /* Keyword.Type */
+.highlight .ld { color: #cccccc !important } /* Literal.Date */
+.highlight .m { color: #cd00cd !important } /* Literal.Number */
+.highlight .s { color: #cd0000 !important } /* Literal.String */
+.highlight .na { color: #cccccc !important } /* Name.Attribute */
+.highlight .nb { color: #cd00cd !important } /* Name.Builtin */
+.highlight .nc { color: #00cdcd !important } /* Name.Class */
+.highlight .no { color: #cccccc !important } /* Name.Constant */
+.highlight .nd { color: #cccccc !important } /* Name.Decorator */
+.highlight .ni { color: #cccccc !important } /* Name.Entity */
+.highlight .ne { color: #666699 !important; font-weight: bold !important } /* Name.Exception */
+.highlight .nf { color: #cccccc !important } /* Name.Function */
+.highlight .nl { color: #cccccc !important } /* Name.Label */
+.highlight .nn { color: #cccccc !important } /* Name.Namespace */
+.highlight .nx { color: #cccccc !important } /* Name.Other */
+.highlight .py { color: #cccccc !important } /* Name.Property */
+.highlight .nt { color: #cccccc !important } /* Name.Tag */
+.highlight .nv { color: #00cdcd !important } /* Name.Variable */
+.highlight .ow { color: #cdcd00 !important } /* Operator.Word */
+.highlight .w { color: #cccccc !important } /* Text.Whitespace */
+.highlight .mb { color: #cd00cd !important } /* Literal.Number.Bin */
+.highlight .mf { color: #cd00cd !important } /* Literal.Number.Float */
+.highlight .mh { color: #cd00cd !important } /* Literal.Number.Hex */
+.highlight .mi { color: #cd00cd !important } /* Literal.Number.Integer */
+.highlight .mo { color: #cd00cd !important } /* Literal.Number.Oct */
+.highlight .sa { color: #cd0000 !important } /* Literal.String.Affix */
+.highlight .sb { color: #cd0000 !important } /* Literal.String.Backtick */
+.highlight .sc { color: #cd0000 !important } /* Literal.String.Char */
+.highlight .dl { color: #cd0000 !important } /* Literal.String.Delimiter */
+.highlight .sd { color: #cd0000 !important } /* Literal.String.Doc */
+.highlight .s2 { color: #cd0000 !important } /* Literal.String.Double */
+.highlight .se { color: #cd0000 !important } /* Literal.String.Escape */
+.highlight .sh { color: #cd0000 !important } /* Literal.String.Heredoc */
+.highlight .si { color: #cd0000 !important } /* Literal.String.Interpol */
+.highlight .sx { color: #cd0000 !important } /* Literal.String.Other */
+.highlight .sr { color: #cd0000 !important } /* Literal.String.Regex */
+.highlight .s1 { color: #cd0000 !important } /* Literal.String.Single */
+.highlight .ss { color: #cd0000 !important } /* Literal.String.Symbol */
+.highlight .bp { color: #cd00cd !important } /* Name.Builtin.Pseudo */
+.highlight .fm { color: #cccccc !important } /* Name.Function.Magic */
+.highlight .vc { color: #00cdcd !important } /* Name.Variable.Class */
+.highlight .vg { color: #00cdcd !important } /* Name.Variable.Global */
+.highlight .vi { color: #00cdcd !important } /* Name.Variable.Instance */
+.highlight .vm { color: #00cdcd !important } /* Name.Variable.Magic */
+.highlight .il { color: #cd00cd !important } /* Literal.Number.Integer.Long */
+/*pygaments-css>*/
+
+/*<codemirro tommorrow night bright theme*/
+/*
+
+    Name:       Tomorrow Night - Bright
+    Author:     Chris Kempson
+
+    Port done by Gerard Braad <me@gbraad.nl>
+
+*/
+
+.CodeMirror { background: #000000 !important; color: #eaeaea !important; opacity: 0.5 !important;}
+div.CodeMirror-selected { background: #424242 !important; }
+.CodeMirror-gutters { background: #000000 !important; border-right: 0px !important; }
+.CodeMirror-guttermarker { color: #e78c45 !important; }
+.CodeMirror-guttermarker-subtle { color: #777 !important; }
+.CodeMirror-linenumber { color: #424242 !important; }
+.CodeMirror-cursor { border-left: 1px solid #6A6A6A !important; }
+
+span.cm-comment { color: #d27b53 !important; }
+span.cm-atom { color: #a16a94 !important; }
+span.cm-number { color: #a16a94 !important; }
+
+span.cm-property, .cm-s-tomorrow-night-bright span.cm-attribute { color: #99cc99 !important; }
+span.cm-keyword { color: #d54e53 !important; }
+span.cm-string { color: #e7c547 !important; }
+
+span.cm-variable { color: #b9ca4a !important; }
+span.cm-variable-2 { color: #7aa6da !important; }
+span.cm-def { color: #e78c45 !important; }
+span.cm-bracket { color: #eaeaea !important; }
+span.cm-tag { color: #d54e53 !important; }
+span.cm-link { color: #a16a94 !important; }
+span.cm-error { background: #d54e53 !important; color: #6A6A6A !important; }
+
+.CodeMirror-activeline-background { background: #2a2a2a !important; }
+.CodeMirror-matchingbracket { text-decoration: underline !important; color: white !important; }
+/*</codemirro tommorrow night bright theme>*/
+
+/*<bitbucket>*/
+#adg3-dialog {
+  display: none !important;
+}
+/*</bitbucket>*/
+
+/*<mozilla>*/
+.icon-caret-right {
+  background-color: transparent !important;
+}
+/*</mozilla>*/
+
+
+/*<vimeo>*/
+.iris_annotation--videovitals {
+  background-color: transparent !important;
+}
+/*</vimeo>*/
+
+/*<wikipedia>*/
+img.mwe-math-fallback-image-inline {
+  background-color: #b9b9b9 !important;
+}
+.mw-wiki-logo {
+  opacity: 0.5 !important;
+}
+/*</wikipedia>*/

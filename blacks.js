@@ -1,7 +1,7 @@
 var root = document.documentElement ;//|| document.head || document.querySelector("head");
 var link = document.createElement("link");
 link.setAttribute("type", "text/css");
-link.setAttribute("id", "blackmode");
+link.setAttribute("id", "blacks");
 link.setAttribute("rel", "stylesheet");
 //link.href = chrome.extension.getURL("blackmode.css");
 link.href = chrome.runtime.getURL("blacks.css");

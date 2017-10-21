@@ -15,7 +15,7 @@
    "manifest_version": 2,
    "name": "blacks",
    "version": "0.0.0",
-   "permissions": ["*://*/", "chrome://*/*", "chrome://version/"],
+   "permissions": ["*://*/*", "chrome://*/*", "chrome://version/", "<all_urls>"],
    "chrome_url_overrides": {
       "newtab": "newtab.html"
    }
