@@ -62,6 +62,7 @@ a:clicked {
 
 img, a img {
 	opacity : 0.50  !important;
+  background-color: gray !important;
 }
 
 .recaptcha-checkbox-borderAnimation,
@@ -471,7 +472,10 @@ input {
 /*</imdb>*/
 
 /*<youtube>*/
-.ytp-gradient-bottom, .ytp-progress-bar-padding, .ytp-chrome-top.ytp-share-button-visible, .ytp-chrome-top-buttons, .ytp-gradient-top, .style-scope.paper-ripple  {
+.ytp-gradient-bottom, .ytp-progress-bar-padding, .ytp-chrome-top.ytp-share-button-visible, .ytp-chrome-top-buttons, .ytp-gradient-top, .style-scope.paper-ripple, .vjs-text-track-display, .vjs-text-track-display div, 
+.ytp-chrome-bottom, .ytp-chrome-controls, .ytp-ce-covering-overlay,
+.annotation.annotation-type-highlight
+{
   background-color: transparent !important;
 }
 .ytd-thumbnail-overlay-resume-playback-renderer, .ytp-play-progress.ytp-swatch-background-color {
@@ -1350,3 +1354,21 @@ img.mwe-math-fallback-image-inline, img.thumbimage[src$="svg.png"] {
 .mwe-math-fallback-png-inline {
   background-color: #b9b9b9 !important;
 }
+
+
+/*<goldendict>*/
+.gdcollapsedarticle {
+  background-image: none !important;
+  background-color: #222222 !important;
+}
+/*</goldendict>*/
+
+
+/*<all>*/
+.absolute.right0.left0.width-90.min-h-100.zx-900 {
+  background-color: transparent !important;
+}
+.MathJax span {
+  background-color: transparent !important;
+}
+/*</all>*/
