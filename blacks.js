@@ -22,3 +22,7 @@ document.addEventListener("keydown", (e)=>{
     localStorage.setItem("blacks", !enabled);
   }
 });
+
+//document.addEventListener("mouseup", (e)=>{
+  //document.execCommand("copy");
+//});
