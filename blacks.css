@@ -474,7 +474,8 @@ input {
 /*<youtube>*/
 .ytp-gradient-bottom, .ytp-progress-bar-padding, .ytp-chrome-top.ytp-share-button-visible, .ytp-chrome-top-buttons, .ytp-gradient-top, .style-scope.paper-ripple, .vjs-text-track-display, .vjs-text-track-display div, 
 .ytp-chrome-bottom, .ytp-chrome-controls, .ytp-ce-covering-overlay,
-.annotation.annotation-type-highlight
+.annotation.annotation-type-highlight,
+.OIL2le /* google.com */
 {
   background-color: transparent !important;
 }
@@ -1215,12 +1216,12 @@ span.cm-variable-3, .cm-s-vibrant span.cm-def, .cm-s-vibrant span.cm-type { colo
 
 
 /*<ace editor*/
-.ace-tomorrow-night-bright .ace_gutter {
+.ace_gutter {
   background: #1a1a1a !important;
   color: #DEDEDE !important
 }
 
-.ace-tomorrow-night-bright .ace_print-margin {
+.ace_print-margin {
   width: 1px !important;
   background: #1a1a1a !important
 }
@@ -1230,28 +1231,28 @@ span.cm-variable-3, .cm-s-vibrant span.cm-def, .cm-s-vibrant span.cm-type { colo
   color: #DEDEDE !important
 }
 
-.ace-tomorrow-night-bright .ace_cursor {
+.ace_cursor {
   color: #9F9F9F !important
 }
 
-.ace-tomorrow-night-bright .ace_marker-layer .ace_selection {
+.ace_marker-layer .ace_selection {
   background: #424242 !important
 }
 
-.ace-tomorrow-night-bright.ace_multiselect .ace_selection.ace_start {
+.ace_multiselect .ace_selection.ace_start {
   box-shadow: 0 0 3px 0px #000000 !important;
 }
 
-.ace-tomorrow-night-bright .ace_marker-layer .ace_step {
+.ace_marker-layer .ace_step {
   background: rgb(102, 82, 0) !important
 }
 
-.ace-tomorrow-night-bright .ace_marker-layer .ace_bracket {
+.ace_marker-layer .ace_bracket {
   margin: -1px 0 0 -1px !important;
   border: 1px solid #888888 !important
 }
 
-.ace-tomorrow-night-bright .ace_marker-layer .ace_highlight {
+.ace_marker-layer .ace_highlight {
   border: 1px solid rgb(110, 119, 0) !important;
   border-bottom: 0 !important;
   box-shadow: inset 0 -1px rgb(110, 119, 0) !important;
@@ -1259,100 +1260,100 @@ span.cm-variable-3, .cm-s-vibrant span.cm-def, .cm-s-vibrant span.cm-type { colo
   background: rgba(255, 235, 0, 0.1) !important
 }
 
-.ace-tomorrow-night-bright .ace_marker-layer .ace_active-line {
+.ace_marker-layer .ace_active-line {
   background: #2A2A2A !important
 }
 
-.ace-tomorrow-night-bright .ace_gutter-active-line {
+.ace_gutter-active-line {
   background-color: #2A2A2A !important
 }
 
-.ace-tomorrow-night-bright .ace_stack {
+.ace_stack {
   background-color: rgb(66, 90, 44) !important
 }
 
-.ace-tomorrow-night-bright .ace_marker-layer .ace_selected-word {
+.ace_marker-layer .ace_selected-word {
   border: 1px solid #888888 !important
 }
 
-.ace-tomorrow-night-bright .ace_invisible {
+.ace_invisible {
   color: #343434 !important
 }
 
-.ace-tomorrow-night-bright .ace_keyword,
-.ace-tomorrow-night-bright .ace_meta,
-.ace-tomorrow-night-bright .ace_storage,
-.ace-tomorrow-night-bright .ace_storage.ace_type,
-.ace-tomorrow-night-bright .ace_support.ace_type {
+.ace_keyword,
+.ace_meta,
+.ace_storage,
+.ace_storage.ace_type,
+.ace_support.ace_type {
   color: #C397D8 !important
 }
 
-.ace-tomorrow-night-bright .ace_keyword.ace_operator {
+.ace_keyword.ace_operator {
   color: #70C0B1 !important
 }
 
-.ace-tomorrow-night-bright .ace_constant.ace_character,
-.ace-tomorrow-night-bright .ace_constant.ace_language,
-.ace-tomorrow-night-bright .ace_constant.ace_numeric,
-.ace-tomorrow-night-bright .ace_keyword.ace_other.ace_unit,
-.ace-tomorrow-night-bright .ace_support.ace_constant,
-.ace-tomorrow-night-bright .ace_variable.ace_parameter {
+.ace_constant.ace_character,
+.ace_constant.ace_language,
+.ace_constant.ace_numeric,
+.ace_keyword.ace_other.ace_unit,
+.ace_support.ace_constant,
+.ace_variable.ace_parameter {
   color: #E78C45 !important
 }
 
-.ace-tomorrow-night-bright .ace_constant.ace_other {
+.ace_constant.ace_other {
   color: #EEEEEE !important
 }
 
-.ace-tomorrow-night-bright .ace_invalid {
+.ace_invalid {
   color: #CED2CF !important;
   background-color: #DF5F5F !important
 }
 
-.ace-tomorrow-night-bright .ace_invalid.ace_deprecated {
+.ace_invalid.ace_deprecated {
   color: #CED2CF !important;
   background-color: #B798BF !important
 }
 
-.ace-tomorrow-night-bright .ace_fold {
+.ace_fold {
   background-color: #7AA6DA !important;
   border-color: #DEDEDE !important
 }
 
-.ace-tomorrow-night-bright .ace_entity.ace_name.ace_function,
-.ace-tomorrow-night-bright .ace_support.ace_function,
-.ace-tomorrow-night-bright .ace_variable {
+.ace_entity.ace_name.ace_function,
+.ace_support.ace_function,
+.ace_variable {
   color: #7AA6DA !important
 }
 
-.ace-tomorrow-night-bright .ace_support.ace_class,
-.ace-tomorrow-night-bright .ace_support.ace_type {
+.ace_support.ace_class,
+.ace_support.ace_type {
   color: #E7C547 !important
 }
 
-.ace-tomorrow-night-bright .ace_heading,
-.ace-tomorrow-night-bright .ace_markup.ace_heading,
-.ace-tomorrow-night-bright .ace_string {
+.ace_heading,
+.ace_markup.ace_heading,
+.ace_string {
   color: #B9CA4A !important
 }
 
-.ace-tomorrow-night-bright .ace_entity.ace_name.ace_tag,
-.ace-tomorrow-night-bright .ace_entity.ace_other.ace_attribute-name,
-.ace-tomorrow-night-bright .ace_meta.ace_tag,
-.ace-tomorrow-night-bright .ace_string.ace_regexp,
-.ace-tomorrow-night-bright .ace_variable {
+.ace_entity.ace_name.ace_tag,
+.ace_entity.ace_other.ace_attribute-name,
+.ace_meta.ace_tag,
+.ace_string.ace_regexp,
+.ace_variable {
   color: #D54E53 !important
 }
 
-.ace-tomorrow-night-bright .ace_comment {
+.ace_comment {
   color: #969896 !important
 }
 
-.ace-tomorrow-night-bright .ace_c9searchresults.ace_keyword {
+.ace_c9searchresults.ace_keyword {
   color: #C2C280 !important
 }
 
-.ace-tomorrow-night-bright .ace_indent-guide {
+.ace_indent-guide {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYFBXV/8PAAJoAXX4kT2EAAAAAElFTkSuQmCC) right repeat-y !important
 }
 /*ace editor>*/
@@ -1467,7 +1468,7 @@ URL: http://aramk.com/
 	background-color: #bcbcbc !important;
 	color: #FFF;
 }
-.crayon-pre .crayon-c {
+div .crayon-code .crayon-pre .crayon-c {
 	color: #a7a8a2 !important;
 }
 .crayon-pre .crayon-s {
@@ -1494,7 +1495,7 @@ URL: http://aramk.com/
 .crayon-pre .crayon-m {
 	color: #bba7c5 !important;
 }
-.crayon-pre .crayon-i {
+div .crayon-code .crayon-pre .crayon-i {
 	color: #c7c7c7 !important;
 }
 .crayon-pre .crayon-e {
@@ -1587,7 +1588,26 @@ img.mwe-math-fallback-image-inline, img.thumbimage[src$="svg.png"] {
 /*</aparat>*/
 
 
-  aside.sidebar /* js.tensorflow.org */ 
+.ace_layer ,
+aside.sidebar /* js.tensorflow.org */ 
 {
   background-color: transparent !important;
 }
+
+.line-highlight { /* mozilla.org */
+  background-color: #80808029 !important;
+}
+
+.yvp-bottom-bar, /* yahoo.com */
+#samples_area ,
+#footerline ,
+#footer_CodingArea /* coderbyte.com */
+{
+  background: transparent !important;
+}
+
+.crayon-main .crayon-code .crayon-striped-line ,
+.wp_syntax .code pre {
+  background: black !important;
+}
+

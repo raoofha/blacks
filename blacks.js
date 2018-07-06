@@ -6,11 +6,14 @@ link.setAttribute("rel", "stylesheet");
 //link.href = chrome.extension.getURL("blackmode.css");
 link.href = chrome.runtime.getURL("blacks.css");
 
-var enabled = localStorage.getItem("blacks");
-if(!enabled || enabled === "true"){
-  root.appendChild(link);
-  localStorage.setItem("blacks",true);
-}
+chrome.runtime.sendMessage({method: "getStatus"}, function(response) {
+  var enabled = localStorage.getItem("blacks");
+  if(response && (!enabled || enabled === "true")){
+    root.appendChild(link);
+    localStorage.setItem("blacks",true);
+  }
+});
+
 document.addEventListener("keydown", (e)=>{
   if(e.ctrlKey && e.shiftKey && (e.key === "E")){
     enabled = JSON.parse(localStorage.getItem("blacks"));
