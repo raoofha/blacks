@@ -2,6 +2,7 @@
 
 a global black theme for the web
 
+click on extension icon to disable globally
 to disable theme for the current page use `Ctrl+Shift+E` 
 
 # installation

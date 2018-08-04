@@ -6,11 +6,21 @@ link.setAttribute("rel", "stylesheet");
 //link.href = chrome.extension.getURL("blackmode.css");
 link.href = chrome.runtime.getURL("blacks.css");
 
-chrome.runtime.sendMessage({method: "getStatus"}, function(response) {
+var enabled = localStorage.getItem("blacks");
+if(!enabled || enabled === "true"){
+  root.appendChild(link);
+  localStorage.setItem("blacks",true);
+}
+
+chrome.runtime.sendMessage({method: "getStatus"}, function(global_enabled) {
   var enabled = localStorage.getItem("blacks");
-  if(response && (!enabled || enabled === "true")){
-    root.appendChild(link);
-    localStorage.setItem("blacks",true);
+  if(global_enabled){
+    if (!enabled || enabled === "true"){
+      root.appendChild(link);
+      localStorage.setItem("blacks",true);
+    }
+  }else{
+    link.remove();
   }
 });
 
