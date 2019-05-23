@@ -11,7 +11,7 @@
 *:not(.language-color) /*:not(span):not(yt-formatted-string)*/
 {
   background-color : black !important;
-	color : #727983 !important;
+  color : #727983 !important;
 }
 
 
@@ -74,7 +74,7 @@ input {
 
 embed {
   opacity: 0.4;
-  filter: invert();
+  filter: invert(1);
 }
 
 
@@ -484,6 +484,10 @@ input {
 }
 .ytp-load-progress {
   background-color: rgb(26, 26, 26) !important;
+}
+
+.ytd-searchbox-spt {
+  background-color: transparent !important;
 }
 /*</youtube>*/
 
@@ -1611,3 +1615,10 @@ aside.sidebar /* js.tensorflow.org */
   background: black !important;
 }
 
+.syntaxhighlighter.sh-confluence .code .plain, .syntaxhighlighter.sh-confluence .code .plain a {
+  color : #727983 !important;
+}
+
+.jKbJyf.KRPLCc {
+  background: transparent !important;
+}

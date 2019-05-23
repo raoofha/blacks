@@ -3,39 +3,40 @@ var link = document.createElement("link");
 link.setAttribute("type", "text/css");
 link.setAttribute("id", "blacks");
 link.setAttribute("rel", "stylesheet");
-//link.href = chrome.extension.getURL("blackmode.css");
 link.href = chrome.runtime.getURL("blacks.css");
 
-var enabled = localStorage.getItem("blacks");
-if(!enabled || enabled === "true"){
-  root.appendChild(link);
-  localStorage.setItem("blacks",true);
-}
+root.appendChild(link);
 
-chrome.runtime.sendMessage({method: "getStatus"}, function(global_enabled) {
-  var enabled = localStorage.getItem("blacks");
-  if(global_enabled){
-    if (!enabled || enabled === "true"){
-      root.appendChild(link);
-      localStorage.setItem("blacks",true);
-    }
-  }else{
+blacks = document.location.host;
+chrome.storage.sync.get([blacks], function (items){
+  if ( items[blacks] == false ) {
     link.remove();
   }
 });
 
-document.addEventListener("keydown", (e)=>{
-  if(e.ctrlKey && e.shiftKey && (e.key === "E")){
-    enabled = JSON.parse(localStorage.getItem("blacks"));
-    if(enabled){
-      link.remove();
-    }else{
-      root.appendChild(link);
-    }
-    localStorage.setItem("blacks", !enabled);
+chrome.runtime.sendMessage({method: "getStatus"}, function(global_enabled) {
+  if(global_enabled){
+    chrome.storage.sync.get([blacks], function (items){
+      if ( items[blacks] ) {
+        root.appendChild(link);
+        chrome.storage.sync.set({[blacks]: true})
+      }
+    });
+  }else{
+    link.remove();
   }
+
 });
 
-//document.addEventListener("mouseup", (e)=>{
-  //document.execCommand("copy");
-//});
+document.addEventListener("keydown", (e)=> {
+  if(e.ctrlKey && e.shiftKey && (e.key === "E")){
+    chrome.storage.sync.get([blacks], function (items){
+      if ( items[blacks] != false ) {
+        link.remove();
+      }else{
+        root.appendChild(link);
+      }
+      chrome.storage.sync.set({[blacks]: !items[blacks]})
+    });
+  }
+});
