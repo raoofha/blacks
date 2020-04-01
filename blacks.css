@@ -261,6 +261,11 @@ li.border {
   text-decoration: underline !important;
   color: #79b8ff !important;
 }
+
+
+.pagehead.bg-gray-light {
+  background-color: black !important;
+}
 /*</github> */
 
 /*<medium> */
@@ -1621,4 +1626,10 @@ aside.sidebar /* js.tensorflow.org */
 
 .jKbJyf.KRPLCc {
   background: transparent !important;
+}
+
+
+/* cloudflare */
+#cf-wrapper #cf-error-details .cf-highlight {
+  background-image: none !important;
 }
